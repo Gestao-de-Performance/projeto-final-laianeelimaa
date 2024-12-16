@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0eded; 
+}
+
+header .logo img {
+    width: 150px; 
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.color1 {
+    background-color: #ebebab;
+}
+
+.color2 {
+    background-color: #78bd91;
+}
+
+.color3 {
+    background-color: #4d8f81;
+    color: white;
+}
+
+.color4 {
+    background-color: #9b4b54;
+    color: white;
+}
+
+.color5 {
+    background-color: #d798a9;
+    color: white;
+}
+
+h1, h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+.animated-title {
+    display: inline-block;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #4d8f81;
+    text-transform: uppercase;
+    animation: animateTitle 4s ease-in-out infinite;
+}
+
+@keyframes animateTitle {
+    0% {
+        transform: scale(1);
+        color: #4d8f81;
+    }
+    25% {
+        transform: scale(1.1);
+        color: #78bd91;
+    }
+    50% {
+        transform: scale(1);
+        color: #4d8f81;
+    }
+    75% {
+        transform: scale(1.1);
+        color: #9b4b54;
+    }
+    100% {
+        transform: scale(1);
+        color: #4d8f81;
+    }
+}
+
